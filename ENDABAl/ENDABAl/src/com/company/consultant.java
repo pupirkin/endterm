@@ -19,8 +19,15 @@ public class consultant extends workers implements Worker{
     public void setWoker() {
         set_worker();
     }
+
+    private void set_worker() {
+    }
+
     @Override
     public void get(){
         get_info();
+    }
+
+    private void get_info() {
     }
 }

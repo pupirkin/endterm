@@ -16,12 +16,12 @@ public class manager extends workers implements Worker{
     }
 
     @Override
-    public void setWoker() {
+    public void set_worker() {
         set_worker();
     }
 
     @Override
-    public void get() {
+    public void get_info() {
         get_info();
     }
 

@@ -6,6 +6,7 @@ public class Director extends workers implements Worker{
         super(name, surname, salary, employ_id, shop_id);
     }
 
+
     @Override
     public void getSalary() {
         System.out.print("Your salary is: ");
@@ -18,7 +19,7 @@ public class Director extends workers implements Worker{
     }
 
     @Override
-    public void setWoker() {
+    public void set_worker() {
         set_worker();
     }
 
